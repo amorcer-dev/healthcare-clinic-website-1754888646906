@@ -2,8 +2,8 @@ import React from 'react';
 import { WidgetProfile } from '../components/WidgetProfile'
 import { WidgetVideo } from '../components/WidgetVideo'
 import { WidgetAboutDoctor } from '../components/WidgetAboutDoctor'
-import { WidgetServicesAndConditions } from '../components/WidgetServicesAndConditions'
 import { WidgetTestimonialCarousel } from '../components/WidgetTestimonialCarousel'
+import { WidgetServicesAndConditions } from '../components/WidgetServicesAndConditions'
 import { WidgetPricesAndPackages } from '../components/WidgetPricesAndPackages'
 import { WidgetBookConsultation } from '../components/WidgetBookConsultation'
 import { WidgetInsurances } from '../components/WidgetInsurances'
@@ -56,29 +56,6 @@ export default function Home() {
 ]}
         className=""
       />
-      <WidgetServicesAndConditions
-        specializedServices={[
-        {
-                "name": "Annual Physicals",
-                "icon": "🏥"
-        },
-        {
-                "name": "Chronic Disease Management",
-                "icon": "🏥"
-        },
-        {
-                "name": "Mental Health",
-                "icon": "🏥"
-        }
-]}
-        conditions={[
-        "Diabetes",
-        "Hypertension",
-        "Depression",
-        "Anxiety"
-]}
-        className=""
-      />
       <WidgetTestimonialCarousel
         testimonials={[
         {
@@ -106,6 +83,29 @@ export default function Home() {
         overallRating={4.9}
         totalReviews={127}
         recommendedRate={98}
+        className=""
+      />
+      <WidgetServicesAndConditions
+        specializedServices={[
+        {
+                "name": "Annual Physicals",
+                "icon": "🏥"
+        },
+        {
+                "name": "Chronic Disease Management",
+                "icon": "🏥"
+        },
+        {
+                "name": "Mental Health",
+                "icon": "🏥"
+        }
+]}
+        conditions={[
+        "Diabetes",
+        "Hypertension",
+        "Depression",
+        "Anxiety"
+]}
         className=""
       />
       <WidgetPricesAndPackages
@@ -261,29 +261,6 @@ export default function Home() {
 ]}
         className=""
       />
-      <WidgetServicesAndConditions
-        specializedServices={[
-        {
-                "name": "Annual Physicals",
-                "icon": "🏥"
-        },
-        {
-                "name": "Chronic Disease Management",
-                "icon": "🏥"
-        },
-        {
-                "name": "Mental Health",
-                "icon": "🏥"
-        }
-]}
-        conditions={[
-        "Diabetes",
-        "Hypertension",
-        "Depression",
-        "Anxiety"
-]}
-        className=""
-      />
       <WidgetTestimonialCarousel
         testimonials={[
         {
@@ -311,6 +288,29 @@ export default function Home() {
         overallRating={4.9}
         totalReviews={127}
         recommendedRate={98}
+        className=""
+      />
+      <WidgetServicesAndConditions
+        specializedServices={[
+        {
+                "name": "Annual Physicals",
+                "icon": "🏥"
+        },
+        {
+                "name": "Chronic Disease Management",
+                "icon": "🏥"
+        },
+        {
+                "name": "Mental Health",
+                "icon": "🏥"
+        }
+]}
+        conditions={[
+        "Diabetes",
+        "Hypertension",
+        "Depression",
+        "Anxiety"
+]}
         className=""
       />
         </div>
